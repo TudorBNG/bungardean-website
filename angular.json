@@ -24,6 +24,7 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
+              "src/logo.ico",
               "src/favicon.ico",
               "src/assets"
             ],
@@ -88,6 +89,7 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
+              "src/logo.ico",
               "src/favicon.ico",
               "src/assets"
             ],
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bungardean-website"
+    }
+  },
+  "defaultProject": "bungardean-website",
+  "cli": {
+    "analytics": "1b22db6e-c15d-4ed1-94f5-d853d58c0344"
+  }
 }

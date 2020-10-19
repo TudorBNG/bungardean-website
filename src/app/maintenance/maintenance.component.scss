@@ -1,0 +1,42 @@
+
+.container{
+    text-align: center;
+    font: 20px Comic Sans MS; 
+}
+
+.background-gradient{
+    background: rgb(121,89,9);
+    background: linear-gradient(90deg, rgba(121,89,9,0.434908997778799) 1%, rgba(255,200,0,0.2528361686471463) 100%) ;
+    margin: -10px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.card {
+    position: relative;
+    border: 5px orange;
+    border-style: dashed;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+}
+ 
+a { 
+    color: red; 
+    text-decoration: none; 
+}
+      
+a:hover { 
+    color: #333; 
+    text-decoration: none; 
+}
+  
+
