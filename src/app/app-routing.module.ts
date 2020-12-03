@@ -8,14 +8,14 @@ const routes: Routes = [
     path:'maintenance',
     component: MaintenanceComponent
   },
-  { 
-    path: '**', 
-    redirectTo: 'maintenance' 
-  },
-  {
-    path: '404',
-    redirectTo:'maintenance'
-  },
+  // { 
+  //   path: '**', 
+  //   redirectTo: 'maintenance' 
+  // },
+  // {
+  //   path: '404',
+  //   redirectTo:'maintenance'
+  // },
   {
     path:'main',
     component: MainComponent

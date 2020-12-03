@@ -1,0 +1,44 @@
+.main-container{
+    background: rgb(121,89,9);
+    background: linear-gradient(90deg, rgba(27, 20, 1, 0.435) 50%, rgba(255,200,0,0.2528361686471463) 100%) ;
+    margin: -10px;
+    width: 100vw;
+    height: 100vh;
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+}
+
+.self-presentation{
+    max-width: 100%;
+    position: relative;
+    margin: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header{
+    max-width: 100%;
+    position: relative;
+    margin: 10%;
+    max-height: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#portrait{
+    width: 20%; 
+    float:left;
+}
+
+#description{
+    width: 70%; 
+    float:right;
+    text-align: justify;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
